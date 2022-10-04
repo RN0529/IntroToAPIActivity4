@@ -10,6 +10,7 @@ interface IHuman
 }
 class Human: IHuman
 {
+    //defining properties from inheratance 
     private string name;
     public string Name
     {
@@ -46,7 +47,6 @@ class Human: IHuman
             Speak(this, null);
         }
     }
-    //defining the properties from inheritance
 
     
 
